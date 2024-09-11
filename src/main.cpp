@@ -6,8 +6,8 @@ int main() {
 	stdio_init_all();
 	adc_init();
 	// GPIO26 is ADC 0
-    adc_gpio_init(26);
-    adc_select_input(0);
+	adc_gpio_init(26);
+	adc_select_input(0);
 
 	int adc_value = 0;
 
